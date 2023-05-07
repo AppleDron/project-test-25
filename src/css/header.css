@@ -58,7 +58,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #1e2827;
+  background-color: var(--dark-green);
   z-index: 1000;
   overflow: auto;
   opacity: 0;
@@ -151,13 +151,8 @@
     line-height: 1.33;
     text-transform: uppercase;
     color: var(--main-light-color);
-    /* transition-property: transform;
-    transition-duration: 300ms; */
   }
-  /* .header-nav-link:hover,
-  .header-nav-link:focus {
-    transform: scale(1.1);
-  } */
+
   .header-address-link {
     display: inline-block;
     width: 160px;
@@ -166,7 +161,7 @@
     font-weight: 400;
     font-size: 9px;
     line-height: 1.33;
-    background-color: #1e2827;
+    background-color: var(--dark-green);
     border-radius: 8px;
     padding: 18px 35px;
     color: var(--main-light-color);

@@ -60,7 +60,7 @@
   left: 0;
   background-color: var(--dark-green);
   z-index: 1000;
-  overflow: auto;
+  /* overflow: auto; */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;

@@ -16,11 +16,13 @@
   function onOpenModal() {
     window.addEventListener('keydown', onEscPress);
     refs.modal.classList.remove('is-hidden');
+    document.body.classList.add('lock');
   }
 
   function onCloseModal() {
     window.removeEventListener('keydown', onEscPress);
     refs.modal.classList.add('is-hidden');
+    document.body.classList.remove('lock');
   }
   function onBackdropClick(event) {
     if (event.target === event.currentTarget) {
